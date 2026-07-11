@@ -1204,52 +1204,8 @@ decisions = {
 			}
 	    }
 }
-
-decisions = {
-    shield_ysgramor_get = {
-	potential = {
-		has_character_flag = adventuring_open
-		NOT = { has_global_flag = shield_ysgramor }
-		culture = nord
-		}
-	allow = {
-			prestige = 2000
-			wealth = 200
-			}	
-	effect = {
-	        add_artifact=shield_ysgramor
-			prestige = -2000
-			wealth = -200
-			set_global_flag = shield_ysgramor
-			}	
-	ai_will_do = {
-	        factor = 1
-			}
-	    }
-}
-
-decisions = {
-    weapon_axe_wuuthrad_get = {
-	potential = {
-		has_character_flag = adventuring_open
-		NOT = { has_global_flag = weapon_axe_wuuthrad }
-		culture = nord
-		}
-	allow = {
-			presitge = 10000
-			wealth = 2000
-			}	
-	effect = {
-	        add_artifact=weapon_axe_wuuthrad
-			prestige = -10000
-			wealth = -2000
-			set_global_flag = weapon_axe_wuuthrad
-			}	
-	ai_will_do = {
-	        factor = 1
-			}
-	    }
-}
+#Ysgramor's Shield
+#Wuuthrad
 
 ##DAGGERS
 
