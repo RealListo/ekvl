@@ -1,0 +1,34 @@
+Changelog:
+- Bloodlines changes:
+    - Can’t be created infinitely anymore.
+    - Every non martial bloodline have less required traits to make.
+    - Increased the cost of creating a bloodline.
+- Buildings change:
+    - Special buildings can be used regardless of the owner's culture or religion.
+- Naval change:
+    - Ship speed has been increased from 15 to 30.
+- Empire creation change:
+    -No longer locked by the ruler's culture/religion. Also it now shows you the cost to make one.
+- Economic change:
+    - Halved the economic impact of survey events from the steward's oversee construction action.
+- Trade post change:
+    - Trade posts provide 50% less income.
+- Government change:
+    - Feudal and Merchant governments can hold temples as it used to be.
+- Music change:
+    - Only the mod's music will play ingame.
+- Wonders change:
+    - Wonders can be used regardless of the owner's culture or religion.
+    - The Palace of Kings in Windhelm now allows infinite sign changes with no cooldown.
+- Ideal Masters change:
+    - Lessened the piety loss from the Ideal Masters oblivion invasion, the maximum is capped at -96 piety per month.
+- State attribute changes:
+    - State Diplomacy now provides 0.5% of vassal minimum levy and 0.5% of construction time, per point of State Diplomacy.
+    - State Stewardship now provides 0.5% vassal tax and 0.5% of construction cost, per point of State Stewardship.
+    - State Intrigue now provides 1% siege speed, 0.2% plot power increase and 0.2% of plot power defence, per point of State Intrigue.
+    - State Learning now provides 0.03 monthly piety, from 0.02 monthly piety, per point of State Learning.
+- Councillor mission changes:
+    - Organize the army now provides 0.5% of vassal minimum levy, multiplied by the martial stat of the Marshal.
+    - Hunt apostates now provides 0.5% church tax, multiplied by the learning stat of the Court Chaplain.
+- Bugfixes:
+    - Fixed an issue when a player tries to join the Dark Brotherhood.
