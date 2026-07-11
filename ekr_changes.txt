@@ -34,6 +34,5 @@ Changelog:
     - You can't buy both Wuuthrad and Ysgramor's Shield at the market anymore.
     - If you succeed in the Ysgramor Tomb Trials, it's no longer possible to fail the whole event chain due to a 50/50 chance at the last event.
     - Changed the event chain to start without needing Wuuthrad already.
-
 - Bugfixes:
     - Fixed an issue when a player tries to join the Dark Brotherhood.
