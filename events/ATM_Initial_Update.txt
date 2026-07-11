@@ -87,7 +87,7 @@ character_event = { # Bloodline not claimed #
 	option = { # Default #
 		name = ATM.00103.optA
 		trigger = {
-			ai = no
+			ai = yes
 		}
 		character_event = {
 			id = ATM.00105
@@ -97,7 +97,10 @@ character_event = { # Bloodline not claimed #
 	option = { # Has Wuuthrad #
 		name = ATM.00103.optB
 		trigger = {
+		OR = {
+			ai = no
 			has_artifact = weapon_axe_wuuthrad
+			}
 		}
 		character_event = {
 			id = ATM.00107
@@ -1280,12 +1283,12 @@ character_event = { # The Hall of Ysgramor #
 		name = ATM.00131.optA
 		hidden_tooltip = {
 			random_list = {
-				50 = {
+				100 = {
 					character_event = {
 						id = ATM.00132
 					}
 				}
-				50 = {
+				0 = {
 					character_event = {
 						id = ATM.00133
 					}
