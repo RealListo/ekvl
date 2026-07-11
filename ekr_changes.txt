@@ -30,5 +30,9 @@ Changelog:
 - Councillor mission changes:
     - Organize the army now provides 0.5% of vassal minimum levy, multiplied by the martial stat of the Marshal.
     - Hunt apostates now provides 0.5% church tax, multiplied by the learning stat of the Court Chaplain.
+- Atmora changes:
+    - You can't buy both Wuuthrad and Ysgramor's Shield at the market anymore.
+    - Changed the event chain to start without needing Wuuthrad owned already.
+
 - Bugfixes:
     - Fixed an issue when a player tries to join the Dark Brotherhood.
