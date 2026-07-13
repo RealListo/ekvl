@@ -1,8 +1,8 @@
-### Elder Kings: Reborn for CK2 ###
+### Elder Kings: VL for CK2 ###
 Checksum: VCKR
 
 
-Thank you for downloading Elder Kings: Reborn for Crusader Kings II.
+Thank you for downloading Elder Kings: VL for Crusader Kings II.
 
 This release is compatible with Crusader Kings II version 3.3.X.
 
@@ -15,6 +15,6 @@ This release is compatible with Crusader Kings II version 3.3.X.
    - Rename and move the `.mod` file to `Crusader Kings II\mod`.
 4. Enable the mod in the Launcher.
 
-- The EK:R Team
+- The EK:VL Team
 
 Full credits are available in `credits.txt`.
