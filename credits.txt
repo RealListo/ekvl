@@ -1,6 +1,6 @@
-#Elder Kings: Reborn for Crusader Kings II
+#Elder Kings:VL for Crusader Kings II
 
-#Created by the EK:R team
+#Created by the EK:VL team
 
 Viveleroy
 Listo
