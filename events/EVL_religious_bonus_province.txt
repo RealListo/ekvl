@@ -1,0 +1,969 @@
+namespace = VLRB
+# 001
+
+# Set Up #
+###DWEMER
+#Dwemer Bonus
+character_event = {
+	id = VLRB.101
+	title = VLRB.101.title
+	desc = VLRB.101.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = dwemer_religion
+
+	trigger = {
+		NOT = {	has_character_modifier = dwemer_buff }		
+	}
+	
+	option = {
+		name = "Bless Reddit"
+		add_character_modifier = {
+			name = dwemer_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = dwemer_buff_2
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Dwemer bonus
+character_event = {
+	id = VLRB.102
+	title = VLRB.102.title
+	desc = VLRB.102.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = dwemer_buff
+		NOT = { religion = dwemer_religion }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = dwemer_buff 
+		}
+	}
+#Losing the Dwemer bonus in the province
+province_event = {
+	id = VLRB.103
+	desc = VLRB.103.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = dwemer_buff_2
+	}
+	
+	NOT = { religion = dwemer_religion }
+	}
+
+	option = {
+		name = Traitor
+		remove_province_modifier = dwemer_buff_2
+		}
+}
+###ALIKR
+#Alik'r Bonus
+character_event = {
+	id = VLRB.104
+	title = VLRB.104.title
+	desc = VLRB.104.desc
+	
+	min_age = 16
+	religion = alikr
+
+	trigger = {
+		NOT = {	has_character_modifier = alikr_buff	}		
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Yes King"	#
+		add_character_modifier = {
+			name = alikr_buff 
+			duration = -1 }
+	} 
+
+}
+
+#Losing the Alik'r bonus
+character_event = {
+	id = VLRB.105
+	title = VLRB.105.title
+	desc = VLRB.105.desc
+	
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = alikr_buff
+		NOT = { religion = alikr }
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "C'est fini"	#
+		remove_character_modifier =  alikr_buff	}
+}
+###SATAKAL
+#Satakal Bonus
+character_event = {
+	id = VLRB.106
+	title = VLRB.106.title
+	desc = VLRB.106.desc
+	
+	min_age = 16
+	religion = satakal
+
+	trigger = {
+		NOT = {	has_character_modifier = satakal_buff }		
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Yes King"	#
+		add_character_modifier = {
+			name = satakal_buff 
+			duration = -1 }
+	}
+}
+
+#Losing the Satakal bonus
+character_event = {
+	id = VLRB.107
+	title = VLRB.107.title
+	desc = VLRB.107.desc
+	
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = satakal_buff
+		NOT = { religion = satakal }
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Fuck"	#
+		remove_character_modifier =  satakal_buff }
+}
+###AURIEL
+#Auriel Bonus
+character_event = {
+	id = VLRB.108
+	title = VLRB.108.title
+	desc = VLRB.108.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = auriel
+
+	trigger = {
+		NOT = {	has_character_modifier = auriel_buff }		
+	}
+	
+	option = {
+		name = "Bless Reddit"
+		add_character_modifier = {
+			name = auriel_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = auriel_buff_2
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Auriel bonus
+character_event = {
+	id = VLRB.109
+	title = VLRB.109.title
+	desc = VLRB.109.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = auriel_buff
+		NOT = { religion = auriel }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = auriel_buff 
+		}
+	}
+#Losing the Auriel bonus in the province
+province_event = {
+	id = VLRB.110
+	desc = VLRB.110.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = auriel_buff_2
+	}
+	
+	NOT = { religion = auriel }
+	}
+
+	option = {
+		name = Traitor
+		remove_province_modifier = auriel_buff_2
+		}
+}
+
+###GREEN PACT
+#Green Pact Bonus
+character_event = {
+	id = VLRB.111
+	title = VLRB.111.title
+	desc = VLRB.111.desc
+	
+	min_age = 16
+	religion = green_pact
+
+	trigger = {
+		NOT = {	has_character_modifier = green_pact_buff }		
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Yes King"	#
+		add_character_modifier = {
+			name = green_pact_buff 
+			duration = -1 }
+	}
+}
+
+#Losing the Green Pact bonus
+character_event = {
+	id = VLRB.112
+	title = VLRB.112.title
+	desc = VLRB.112.desc
+	
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = green_pact_buff
+		NOT = { religion = green_pact }
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Fuck"	#
+		remove_character_modifier =  green_pact_buff }
+}
+
+###BLACKSAP
+#Blacksap Bonus
+character_event = {
+	id = VLRB.113
+	title = VLRB.113.title
+	desc = VLRB.113.desc
+	
+	min_age = 16
+	religion = blacksap
+
+	trigger = {
+		NOT = {	has_character_modifier = blacksap_buff }		
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Yes King"	#
+		add_character_modifier = {
+			name = blacksap_buff 
+			duration = -1 }
+	}
+}
+
+#Losing the Blacksap bonus
+character_event = {
+	id = VLRB.114
+	title = VLRB.114.title
+	desc = VLRB.114.desc
+	
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = blacksap_buff
+		NOT = { religion = blacksap }
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Fuck"	#
+		remove_character_modifier =  blacksap_buff }
+}
+
+##VELOTHIAN/TRIBUNAL RELIGIONS##
+#Tribunal Bonus
+character_event = {
+	id = VLRB.115
+	title = VLRB.115.title
+	desc = VLRB.115.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = almsivi
+
+	trigger = {
+		NOT = {	has_character_modifier = almsivi_buff }		
+	}
+	
+	option = {
+		name = "Bless the Tribunal"
+		add_character_modifier = {
+			name = almsivi_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = velothi_buff
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Tribunal bonus
+character_event = {
+	id = VLRB.116
+	title = VLRB.116.title
+	desc = VLRB.116.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = almsivi_buff
+		NOT = { religion = almsivi }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = almsivi_buff 
+		}
+	}
+#Nerevarine Bonus
+character_event = {
+	id = VLRB.117
+	title = VLRB.117.title
+	desc = VLRB.117.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = nerevarine
+
+	trigger = {
+		NOT = {	has_character_modifier = nerevarine_buff }		
+	}
+	
+	option = {
+		name = "Bless the Nerevarine"
+		add_character_modifier = {
+			name = nerevarine_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = velothi_buff
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Nerevarine bonus
+character_event = {
+	id = VLRB.118
+	title = VLRB.118.title
+	desc = VLRB.118.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = nerevarine_buff
+		NOT = { religion = nerevarine }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = nerevarine_buff 
+		}
+}
+#Reclamationist Bonus
+character_event = {
+	id = VLRB.119
+	title = VLRB.119.title
+	desc = VLRB.119.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = reclamationist
+
+	trigger = {
+		NOT = {	has_character_modifier = reclamationist_buff }		
+	}
+	
+	option = {
+		name = "Bless the Reclamations"
+		add_character_modifier = {
+			name = reclamationist_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = velothi_buff
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Reclamationist bonus
+character_event = {
+	id = VLRB.120
+	title = VLRB.120.title
+	desc = VLRB.120.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = reclamationist_buff
+		NOT = { religion = reclamationist }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = reclamationist_buff 
+		}
+}
+#Old Velothi Bonus
+character_event = {
+	id = VLRB.121
+	title = VLRB.121.title
+	desc = VLRB.121.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = almsivi_old_velothi
+
+	trigger = {
+		NOT = {	has_character_modifier = almsivi_old_velothi_buff }		
+	}
+	
+	option = {
+		name = "Bless Saint Veloth"
+		add_character_modifier = {
+			name = almsivi_old_velothi_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = velothi_buff
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Old Velothi bonus
+character_event = {
+	id = VLRB.122
+	title = VLRB.122.title
+	desc = VLRB.122.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = almsivi_old_velothi_buff
+		NOT = { religion = almsivi_old_velothi }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = almsivi_old_velothi_buff 
+		}
+}
+
+#Losing the Culture tech Velothi bonus in the province
+province_event = {
+	id = VLRB.123
+	desc = VLRB.123.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = velothi_buff
+	}
+	
+	NOT = {
+	OR = {
+		religion = almsivi
+		religion = nerevarine
+		religion = reclamationist
+		religion = almsivi_old_velothi
+		}
+	}
+}
+	option = {
+		name = Traitor
+		remove_province_modifier = velothi_buff
+		}
+}
+
+#Sixth House Bonus
+character_event = {
+	id = VLRB.124
+	title = VLRB.124.title
+	desc = VLRB.124.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = sixth_house
+
+	trigger = {
+		NOT = {	has_character_modifier = sixth_house_buff }		
+	}
+	
+	option = {
+		name = "Bless Lord Dagoth"
+		add_character_modifier = {
+			name = sixth_house_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = sixth_house_buff_2
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Sixth House bonus
+character_event = {
+	id = VLRB.125
+	title = VLRB.125.title
+	desc = VLRB.125.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = sixth_house_buff
+		NOT = { religion = sixth_house }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = sixth_house_buff 
+		}
+}
+
+#Losing the Sixth House bonus in the province
+province_event = {
+	id = VLRB.126
+	desc = VLRB.126.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = sixth_house_buff_2
+	}
+	
+	NOT = { religion = sixth_house }
+	}
+
+	option = {
+		name = Traitor
+		remove_province_modifier = sixth_house_buff_2
+		}
+}
+
+#Clavicus Vile Bonus
+character_event = {
+	id = VLRB.127
+	title = VLRB.127.title
+	desc = VLRB.127.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = daedra_clavicus
+
+	trigger = {
+		NOT = {	has_character_modifier = daedra_clavicus_buff }		
+	}
+	
+	option = {
+		name = "Hail Clavicus Vile"
+		add_character_modifier = {
+			name = daedra_clavicus_buff 
+			duration = -1 }
+		}
+}
+#Losing the Clavicus Vile bonus
+character_event = {
+	id = VLRB.128
+	title = VLRB.128.title
+	desc = VLRB.128.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = daedra_clavicus_buff
+		NOT = { religion = daedra_clavicus }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = daedra_clavicus_buff 
+		}
+}
+
+#Hermaeus Mora Bonus
+character_event = {
+	id = VLRB.129
+	title = VLRB.129.title
+	desc = VLRB.129.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = daedra_hermaeus
+
+	trigger = {
+		NOT = {	has_character_modifier = daedra_hermaeus_buff }		
+	}
+	
+	option = {
+		name = "Hail Hermaeus Mora"
+		add_character_modifier = {
+			name = daedra_hermaeus_buff 
+			duration = -1 }
+		capital_scope = {
+				add_province_modifier = { 
+				name = daedra_hermaeus_buff_2
+				duration = -1
+				}
+		}
+	}
+}
+#Losing the Hermaeus Mora Bonus
+character_event = {
+	id = VLRB.130
+	title = VLRB.130.title
+	desc = VLRB.130.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = daedra_hermaeus_buff
+		NOT = { religion = sixth_house }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = daedra_hermaeus_buff 
+		}
+}
+
+#Losing the Hermaeus Mora Bonus in the province
+province_event = {
+	id = VLRB.131
+	desc = VLRB.131.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = daedra_hermaeus_buff_2
+	}
+	
+	NOT = { religion = daedra_hermaeus }
+	}
+
+	option = {
+		name = Traitor
+		remove_province_modifier = daedra_hermaeus_buff_2
+		}
+}
+
+#Hircine Bonus
+character_event = {
+	id = VLRB.132
+	title = VLRB.132.title
+	desc = VLRB.132.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = daedra_hircine
+
+	trigger = {
+		NOT = {	has_character_modifier = daedra_hircine_buff }		
+	}
+	
+	option = {
+		name = "Hail Clavicus Vile"
+		add_character_modifier = {
+			name = daedra_hircine_buff 
+			duration = -1 }
+		}
+}
+#Losing the Hircine bonus
+character_event = {
+	id = VLRB.133
+	title = VLRB.133.title
+	desc = VLRB.133.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = daedra_hircine_buff
+		NOT = { religion = daedra_hircine }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = daedra_hircine_buff 
+		}
+}
+
+#Mehrunes Dagon Bonus
+character_event = {
+	id = VLRB.134
+	title = VLRB.134.title
+	desc = VLRB.134.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = daedra_mehrunes
+
+	trigger = {
+		NOT = {	has_character_modifier = daedra_mehrunes_buff }		
+	}
+	
+	option = {
+		name = "Hail Mehrunes Dagon"
+		add_character_modifier = {
+			name = daedra_mehrunes_buff 
+			duration = -1 }
+		}
+}
+#Losing the Mehrunes Dagon bonus
+character_event = {
+	id = VLRB.135
+	title = VLRB.135.title
+	desc = VLRB.135.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = daedra_mehrunes_buff
+		NOT = { religion = daedra_mehrunes }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = daedra_mehrunes_buff 
+		}
+}
+
+#Meridia Bonus
+character_event = {
+	id = VLRB.136
+	title = VLRB.136.title
+	desc = VLRB.136.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = daedra_meridia
+
+	trigger = {
+		NOT = {	has_character_modifier = daedra_meridia_buff }		
+	}
+	
+	option = {
+		name = "Hail Meridia"
+		add_character_modifier = {
+			name = daedra_meridia_buff 
+			duration = -1 }
+		capital_scope = {
+		add_province_modifier = { 
+			name = daedra_meridia_buff_2
+			duration = -1
+				}	
+		}
+}
+}
+#Losing the Meridia bonus
+character_event = {
+	id = VLRB.137
+	title = VLRB.137.title
+	desc = VLRB.137.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = daedra_meridia_buff
+		NOT = { religion = daedra_meridia }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = daedra_meridia_buff 
+		}
+}
+
+#Losing the Meridia bonus in the province
+province_event = {
+	id = VLRB.138
+	desc = VLRB.138.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = daedra_meridia_buff_2
+	}
+	
+	NOT = { religion = dedra_meridia }
+	}
+
+	option = {
+		name = Traitor
+		remove_province_modifier = daedra_meridia_buff_2
+		}
+}
+
+#Peryite Bonus
+character_event = {
+	id = VLRB.139
+	title = VLRB.139.title
+	desc = VLRB.139.desc
+	
+	min_age = 16
+	only_capable = yes
+	religion = daedra_peryite
+
+	trigger = {
+		NOT = {	has_character_modifier = daedra_peryite_buff }		
+	}
+	
+	option = {
+		name = "Hail Peryite"
+		add_character_modifier = {
+			name = daedra_peryite_buff 
+			duration = -1 }
+		capital_scope = {
+		add_province_modifier = { 
+			name = daedra_peryite_buff_2
+			duration = -1
+				}	
+		}
+}
+}
+#Losing the Peryite bonus
+character_event = {
+	id = VLRB.140
+	title = VLRB.140.title
+	desc = VLRB.140.desc
+	
+	min_age = 16
+	only_capable = yes
+	
+	trigger = {
+		has_character_modifier = daedra_peryite_buff
+		NOT = { religion = daedra_peryite }
+	}
+	
+	option = {
+		name = "Traitor"
+		remove_character_modifier = daedra_peryite_buff 
+		}
+}
+
+#Losing the Peryite bonus in the province
+province_event = {
+	id = VLRB.141
+	desc = VLRB.141.title
+	picture = GFX_evt_adventurers_rest
+	
+	trigger = {
+	capital_scope = {
+		has_province_modifier = daedra_peryite_buff_2
+	}
+	
+	NOT = { religion = daedra_peryite }
+	}
+
+	option = {
+		name = Traitor
+		remove_province_modifier = daedra_peryite_buff_2
+		}
+}
+
+###Hist
+#Hist Bonus
+character_event = {
+	id = VLRB.142
+	title = VLRB.142.title
+	desc = VLRB.142.desc
+	
+	min_age = 16
+	religion = hist
+
+	trigger = {
+		NOT = {	has_character_modifier = hist_buff	}		
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "Yes King"	#
+		add_character_modifier = {
+			name = hist_buff 
+			duration = -1 }
+	} 
+
+}
+
+#Losing the Hist bonus
+character_event = {
+	id = VLRB.143
+	title = VLRB.143.title
+	desc = VLRB.144.desc
+	
+	min_age = 16
+	
+	trigger = {
+		has_character_modifier = hist_buff
+		NOT = { religion = hist }
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+	option = {
+		name = "C'est fini"	#
+		remove_character_modifier =  hist_buff	}
+}
