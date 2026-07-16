@@ -1,0 +1,129 @@
+dwemer_buff;Dwemer Buff;;;;;;;;;;;;;;x
+dwemer_buff_desc;Bonus to anyone who worships the Divine Metaphysics.;;;;;;;;;;;;;;x
+VLRB.101.title;Gaining the Dwemer bonus;;;;;;;;;;;;;;x
+VLRB.101.desc;Buff to any ruler who follows the Divine Metaphysics.;;;;;;;;;;;;;;x
+VLRB.102.title;Losing the Dwemer bonus;;;;;;;;;;;;;;x
+VLRB.102.desc;I don't follow the Dwemer religion anymore.;;;;;;;;;;;;;;x
+VLRB.103.title;Losing the Dwemer bonus in the Capital;;;;;;;;;;;;;;x
+dwemer_buff_2;Dwemer Bonus;;;;;;;;;;;;;;x
+dwemer_buff_2_desc;Dwemer bonus to the province.;;;;;;;;;;;;;;x
+auriel_buff_2;Auriel Bonus;;;;;;;;;;;;;;x
+auriel_buff_2_desc;Altmer bonus to the province.;;;;;;;;;;;;;;x
+velothi_buff;Dunmer Bonus;;;;;;;;;;;;;;x
+velothi_buff_2_desc;Dunmer bonus to the province.;;;;;;;;;;;;;;x
+sixth_house_buff_2;Sixth House Bonus;;;;;;;;;;;;;;x
+sixth_house_buff_2_desc;Dagoth Ur bonus to the province.;;;;;;;;;;;;;;x
+daedra_hermaeus_buff_2;Hermaeus Mora Bonus;;;;;;;;;;;;;;x
+daedra_hermaeus_buff_2_desc;Hermaeus Mora bonus to the province.;;;;;;;;;;;;;;x
+daedra_meridia_buff_2;Meridia Bonus;;;;;;;;;;;;;;x
+daedra_meridia_buff_2_desc;Meridia bonus to the province.;;;;;;;;;;;;;;x
+daedra_peryite_buff_2;Peryite Bonus;;;;;;;;;;;;;;x
+daedra_peryite_buff_2_desc;Peryite bonus to the province.;;;;;;;;;;;;;;x
+alikr_buff;Alik'r Buff;;;;;;;;;;;;;;x
+alikr_buff_desc;Bonus to anyone who worships the Yokudan Pantheon.;;;;;;;;;;;;;;x
+VLRB.104.title;Gaining the Alik'r bonus;;;;;;;;;;;;;;x
+VLRB.104.desc;Buff to any ruler who follows Yokudan Pantheon.;;;;;;;;;;;;;;x
+VLRB.105.title;Losing the Alik'r bonus;;;;;;;;;;;;;;x
+VLRB.105.desc;I don't follow the Yokudan Pantheon anymore.;;;;;;;;;;;;;;x
+satakal_buff;Satakal Buff;;;;;;;;;;;;;;x
+satakal_buff_desc;Bonus to anyone who worships the Yokudan Pantheon.;;;;;;;;;;;;;;x
+VLRB.106.title;Gaining the Satakal bonus;;;;;;;;;;;;;;x
+VLRB.106.desc;Buff to any ruler who follows Yokudan Pantheon.;;;;;;;;;;;;;;x
+VLRB.107.title;Losing the Satakal bonus;;;;;;;;;;;;;;x
+VLRB.107.desc;I don't follow the Yokudan Pantheon anymore.;;;;;;;;;;;;;;x
+auriel_buff;Auri-el Buff;;;;;;;;;;;;;;x
+auriel_buff_desc;Bonus to anyone who worships the Altmer Pantheon.;;;;;;;;;;;;;;x
+VLRB.108.title;Gaining the Altmer bonus;;;;;;;;;;;;;;x
+VLRB.108.desc;Buff to any ruler who follows the Altmer Pantheon.;;;;;;;;;;;;;;x
+VLRB.109.title;Losing the Altmer bonus;;;;;;;;;;;;;;x
+VLRB.109.desc;I don't follow the Altmer religion anymore.;;;;;;;;;;;;;;x
+VLRB.110.title;Losing the Altmer bonus in the Capital;;;;;;;;;;;;;;x
+green_pact_buff;Green Pact Buff;;;;;;;;;;;;;;x
+green_pact_buff_desc;Bonus to anyone who worships the Bosmer Pantheon.;;;;;;;;;;;;;;x
+VLRB.111.title;Gaining the Bosmer bonus;;;;;;;;;;;;;;x
+VLRB.111.desc;Buff to any ruler who follows the Bosmer Pantheon.;;;;;;;;;;;;;;x
+VLRB.112.title;Losing the Bosmer bonus;;;;;;;;;;;;;;x
+VLRB.112.desc;I don't follow the Bosmer religion anymore.;;;;;;;;;;;;;;x
+blacksap_buff;Black Sap Buff;;;;;;;;;;;;;;x
+blacksap_buff_desc;Bonus to anyone who worships the Black Sap.;;;;;;;;;;;;;;x
+VLRB.113.title;Gaining the Bosmer bonus;;;;;;;;;;;;;;x
+VLRB.113.desc;Buff to any ruler who follows the Bosmer Pantheon.;;;;;;;;;;;;;;x
+VLRB.114.title;Losing the Bosmer bonus;;;;;;;;;;;;;;x
+VLRB.114.desc;I don't follow the Bosmer religion anymore.;;;;;;;;;;;;;;x
+almsivi_buff;Almsivi Buff;;;;;;;;;;;;;;x
+almsivi_buff_desc;Bonus to anyone who worships the Tribunal.;;;;;;;;;;;;;;x
+VLRB.115.title;Gaining the Tribunal bonus;;;;;;;;;;;;;;x
+VLRB.115.desc;Buff to any ruler who follows the Tribunal.;;;;;;;;;;;;;;x
+VLRB.116.title;Losing the Tribunal bonus;;;;;;;;;;;;;;x
+VLRB.116.desc;I don't follow the Tribunal anymore.;;;;;;;;;;;;;;x
+nerevarine_buff;Nerevarine Buff;;;;;;;;;;;;;;x
+nerevarine_buff_desc;Bonus to anyone who worships Nerevar.;;;;;;;;;;;;;;x
+VLRB.117.title;Gaining the Nerevarine bonus;;;;;;;;;;;;;;x
+VLRB.117.desc;Buff to any ruler who follows Nerevar.;;;;;;;;;;;;;;x
+VLRB.118.title;Losing the Nerevarine bonus;;;;;;;;;;;;;;x
+VLRB.118.desc;I don't follow Nerevar anymore.;;;;;;;;;;;;;;x
+sixth_house_buff;Sixth House Buff;;;;;;;;;;;;;;x
+sixth_house_buff_desc;Bonus to anyone who worships Dagoth Ur.;;;;;;;;;;;;;;x
+VLRB.124.title;Gaining the Sixth House bonus;;;;;;;;;;;;;;x
+VLRB.124.desc;Buff to any ruler who follows the Dagoth Ur.;;;;;;;;;;;;;;x
+VLRB.125.title;Losing the Sixth House bonus;;;;;;;;;;;;;;x
+VLRB.125.desc;I don't follow the Sharmat anymore.;;;;;;;;;;;;;;x
+VLRB.126.title;Losing the Sixth House bonus in the Capital;;;;;;;;;;;;;;x
+reclamationist_buff;Reclamationist Buff;;;;;;;;;;;;;;x
+reclamationist_buff_desc;Bonus to anyone who worships the Reclamations, Azura, Boethiah and Mephala.;;;;;;;;;;;;;;x
+VLRB.119.title;Gaining the Reclamations bonus;;;;;;;;;;;;;;x
+VLRB.119.desc;Buff to any ruler who follows the Reclamations.;;;;;;;;;;;;;;x
+VLRB.120.title;Losing the Reclamations bonus;;;;;;;;;;;;;;x
+VLRB.120.desc;I don't follow the Reclamations anymore.;;;;;;;;;;;;;;x
+almsivi_old_velothi_buff;Old Velothi Buff;;;;;;;;;;;;;;x
+almsivi_old_velothi_buff_desc;Bonus to anyone who worships Old Velothi.;;;;;;;;;;;;;;x
+VLRB.121.title;Gaining the Old Velothi bonus;;;;;;;;;;;;;;x
+VLRB.121.desc;Buff to any ruler who follows the Old Velothi faith.;;;;;;;;;;;;;;x
+VLRB.122.title;Losing the Old Velothi bonus;;;;;;;;;;;;;;x
+VLRB.122.desc;I don't follow the Old Velothi faith anymore.;;;;;;;;;;;;;;x
+VLRB.123.title;Losing the Dunmer bonus in the Capital;;;;;;;;;;;;;;x
+daedra_clavicus_buff;Clavicus Vile Buff;;;;;;;;;;;;;;x
+daedra_clavicus_buff_desc;Bonus to anyone who worships Clavicus Vile.;;;;;;;;;;;;;;x
+VLRB.127.title;Gaining the Clavicus Vile bonus;;;;;;;;;;;;;;x
+VLRB.127.desc;Buff to any ruler who follows Clavicus Vile.;;;;;;;;;;;;;;x
+VLRB.128.title;Losing the Clavicus Vile bonus;;;;;;;;;;;;;;x
+VLRB.128.desc;I don't follow Clavicus Vile anymore.;;;;;;;;;;;;;;x
+daedra_hermaeus_buff;Hermaeus Mora Buff;;;;;;;;;;;;;;x
+daedra_hermaeus_buff_desc;Bonus to anyone who worships Hermaeus Mora.;;;;;;;;;;;;;;x
+VLRB.129.title;Gaining the Hermaeus Mora bonus;;;;;;;;;;;;;;x
+VLRB.129.desc;Buff to any ruler who follows Hermaeus Mora.;;;;;;;;;;;;;;x
+VLRB.130.title;Losing the Hermaeus Mora bonus;;;;;;;;;;;;;;x
+VLRB.130.desc;I don't follow Hermaeus Mora anymore.;;;;;;;;;;;;;;x
+VLRB.131.title;Losing the Hermaeus Mora bonus in the Capital;;;;;;;;;;;;;;x
+daedra_hircine_buff;Hircine Buff;;;;;;;;;;;;;;x
+daedra_hircine_buff_desc;Bonus to anyone who worships Hircine.;;;;;;;;;;;;;;x
+VLRB.132.title;Gaining the Hircine bonus;;;;;;;;;;;;;;x
+VLRB.132.desc;Buff to any ruler who follows Hircine.;;;;;;;;;;;;;;x
+VLRB.133.title;Losing the Hircine bonus;;;;;;;;;;;;;;x
+VLRB.133.desc;I don't follow Hircine anymore.;;;;;;;;;;;;;;x
+daedra_mehrunes_buff;Mehrunes Dagon Buff;;;;;;;;;;;;;;x
+daedra_mehrunes_buff_desc;Bonus to anyone who worships Mehrunes Dagon.;;;;;;;;;;;;;;x
+VLRB.134.title;Gaining the Mehrunes Dagon bonus;;;;;;;;;;;;;;x
+VLRB.134.desc;Buff to any ruler who follows Mehrunes Dagon.;;;;;;;;;;;;;;x
+VLRB.135.title;Losing the Mehrunes Dagon bonus;;;;;;;;;;;;;;x
+VLRB.135.desc;I don't follow Mehrunes Dagon anymore.;;;;;;;;;;;;;;x
+daedra_meridia_buff;Meridia Buff;;;;;;;;;;;;;;x
+daedra_meridia_buff_desc;Bonus to anyone who worships Meridia.;;;;;;;;;;;;;;x
+VLRB.136.title;Gaining the Meridia bonus;;;;;;;;;;;;;;x
+VLRB.136.desc;Buff to any ruler who follows Meridia.;;;;;;;;;;;;;;x
+VLRB.137.title;Losing the Meridia bonus;;;;;;;;;;;;;;x
+VLRB.137.desc;I don't follow Meridia anymore.;;;;;;;;;;;;;;x
+VLRB.138.title;Losing the Meridia bonus in the Capital;;;;;;;;;;;;;;x
+daedra_peryite_buff;Peryite Buff;;;;;;;;;;;;;;x
+daedra_peryite_buff_desc;Bonus to anyone who worships Peryite.;;;;;;;;;;;;;;x
+VLRB.139.title;Gaining the Peryite bonus;;;;;;;;;;;;;;x
+VLRB.139.desc;Buff to any ruler who follows Peryite.;;;;;;;;;;;;;;x
+VLRB.140.title;Losing the Peryite bonus;;;;;;;;;;;;;;x
+VLRB.140.desc;I don't follow Peryite anymore.;;;;;;;;;;;;;;x
+VLRB.141.title;Losing the Peryite bonus in the Capital;;;;;;;;;;;;;;x
+hist_buff;Hist Buff;;;;;;;;;;;;;;x
+hist_buff_desc;Bonus to anyone who worships the Hist.;;;;;;;;;;;;;;x
+VLRB.142.title;Gaining the Hist bonus;;;;;;;;;;;;;;x
+VLRB.142.desc;Buff to any ruler who follows the Hist.;;;;;;;;;;;;;;x
+VLRB.143.title;Losing the Hist bonus;;;;;;;;;;;;;;x
+VLRB.143.desc;I don't follow Hist anymore.;;;;;;;;;;;;;;x
