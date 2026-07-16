@@ -111,7 +111,7 @@ human_pantheon = {
 
 		character_modifier = {
 			stewardship = 1
-  			vassal_opinion = 5
+			vassal_opinion = 5
 		}
 	}
 	
@@ -275,9 +275,9 @@ yokudan_pantheon = {
 		#religious_clothing_head = 9
 		#religious_clothing_priest = 9
 		has_heir_designation = yes
-
-		character_modifier = { 
-			land_morale = 0.015
+		
+		character_modifier = {
+			martial = 2
 		}
 	}
 	
@@ -330,6 +330,10 @@ yokudan_pantheon = {
 		#religious_clothing_head = 9
 		#religious_clothing_priest = 9
 		has_heir_designation = yes
+		
+		character_modifier = {
+			martial = 2
+		}
 	}
 }
 
@@ -397,7 +401,6 @@ mer_pantheon = {
 
 		character_modifier = { 
 			diplomacy = 1 
-			culture_techpoints = 0.03 
 		}
 	}
 	
@@ -449,7 +452,6 @@ mer_pantheon = {
 		has_heir_designation = yes
 
 		character_modifier = { 
-			global_movement_speed = 0.02
 			intrigue = 1
 		}
 	}
@@ -570,11 +572,6 @@ tribunal = {
 		
 		aggression = 0.5
 		has_heir_designation = yes
-
-		character_modifier = {
-			culture_techpoints = 0.8
-			learning = 1
-		}
 	}
 	
 	nerevarine = {
@@ -624,8 +621,7 @@ tribunal = {
 		has_heir_designation = yes
 
 		character_modifier = {
-			monthly_character_prestige = 1.0 
-			morale_offence = 0.05
+			monthly_character_prestige = 1.0
 		}
 	}
 
@@ -663,12 +659,6 @@ tribunal = {
 		priests_can_inherit = no
 		short_reign_opinion_year_mult = 4 # The default is 2
 		has_heir_designation = yes
-
-		character_modifier = { 
-			land_morale = 0.05
-			siege_speed = 0.025 
-			disease_defence = 0.05
-		}
 	}
 
 	reclamationist = {
@@ -761,8 +751,7 @@ tribunal = {
 		has_heir_designation = yes
 
 		character_modifier = { 
-			learning = 1 
-			culture_techpoints = 0.03 
+			learning = 1
 		}
 	}
 }
@@ -950,7 +939,6 @@ daedra = {
 
 		character_modifier = {
 			diplomacy  = 3
-			global_tax_modifier = -0.015
 		}
 	}
 
@@ -999,7 +987,6 @@ daedra = {
 
 		character_modifier ={
 			learning = 1
-			tech_growth_modifier = 0.10
 			health = -0.5
 		}
 	}
@@ -1052,7 +1039,6 @@ daedra = {
 
 		character_modifier = {
 			combat_rating = 10
-			global_movement_speed = 0.01
 		}
 	}
 
@@ -1106,7 +1092,6 @@ daedra = {
 
 		character_modifier = {
 			martial = 2
-			siege_speed = 0.015
 			global_revolt_risk = 0.04
 		}
 	}
@@ -1214,7 +1199,6 @@ daedra = {
 
 		character_modifier = {
 			health = 0.5
-			disease_defence = 0.05
 		}
 	}
 
@@ -1239,6 +1223,14 @@ daedra = {
 		}
 		evil_god_names = {
 			GOD_EBONARM GOD_MEPHALA GOD_BOETHIAH
+		}
+		
+		unit_home_modifier = {
+			land_morale = 0.15
+			levy_size = 0.10
+			garrison_size = 0.10
+			
+			key = "daedra_malacath"
 		}
 		
 		max_consorts = 4
@@ -1268,7 +1260,6 @@ daedra = {
 
 		character_modifier = {
 			arrest_chance_modifier = 0.025
-			levy_size = 0.0215
 			vassal_opinion = -15
 			same_religion_opinion = 5
 		}
@@ -1416,7 +1407,6 @@ daedra = {
 		aggression = 1.25
 
 		character_modifier = {
-			disease_defence = 0.025
 			global_garrison_size = 0.05
 		}
 	}
@@ -1524,7 +1514,7 @@ daedra = {
 			learning = 4
 			diplomacy = -1
 			build_time_modifier = 0.025
-			health = -1.0
+			health = -0.5
 		}
 	}
 
@@ -1751,6 +1741,7 @@ khajiit_pantheon = {
 
 		character_modifier = {
 			health = 0.5
+			martial = 1
 		}
 	}
 	
@@ -1799,6 +1790,7 @@ khajiit_pantheon = {
 		aggression = 1.25
 
 		character_modifier = {
+			health = 0.5
 			martial = 1
 		}
 	}
@@ -1848,6 +1840,11 @@ khajiit_pantheon = {
 		short_reign_opinion_year_mult = 1 # The default is 2
 		
 		aggression = 1.0
+		
+		character_modifier = {
+			health = 0.5
+			martial = 1
+		}
 	}
 }
 
@@ -1911,7 +1908,6 @@ hist_group = {
 		aggression = 0.75
 
 		character_modifier = { 
-			global_movement_speed = 0.015 
 			health = 0.5 
 		}
 	}
@@ -1987,7 +1983,7 @@ reach_faiths = {
 		has_heir_designation = yes
 
 		character_modifier = { 
-			siege_defence = 0.025
+			siege_defence = 0.05
 		}
 	}
 
@@ -2041,6 +2037,10 @@ reach_faiths = {
 		#religious_clothing_head = 3
 		#religious_clothing_priest = 3
 		rel_head_defense = yes
+		
+		character_modifier = { 
+			siege_defence = 0.05
+		}
 	}
 }
 

@@ -54,12 +54,5 @@ dwemer_group = {
 		intermarry = elrang
 		aggression = 2.0
 		has_heir_designation = yes
-		
-		character_modifier = {
-			tech_growth_modifier = 0.2
-			economy_techpoints = 0.025
-			military_techpoints = 0.025
-			culture_techpoints = 0.025
-		}
 	}
 }
