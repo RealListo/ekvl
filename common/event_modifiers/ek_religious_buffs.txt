@@ -1,0 +1,141 @@
+##MAN PANTHEON##
+#eight_divines_buff = {
+#	vassal_opinion = 5
+#	icon = 135
+#}
+
+#nine_divines_buff = {
+#	vassal_opinion = 5
+#	icon = 135
+#}
+
+alikr_buff = {
+	land_morale = 0.10
+	icon = 1
+}
+
+satakal_buff = {
+	land_morale = 0.10
+	icon = 1
+}
+##MER PANTHEON##
+dwemer_buff = {
+	learning = 1
+	icon = 2
+}
+
+auriel_buff = {
+	learning = 1
+	icon = 2
+}
+
+green_pact_buff = {
+	global_movement_speed = 0.2
+	icon = 93
+}
+
+blacksap_buff = {
+	global_movement_speed = 0.2
+	icon = 93
+}
+##VELOTHIAN/TRIBUNAL RELIGIONS##
+almsivi_buff = {
+	learning = 1
+	icon = 2
+}
+
+nerevarine_buff = {
+	learning = 1
+	land_morale = 0.10
+	icon = 13
+}
+
+sixth_house_buff = {
+	leader = yes
+	land_morale = 0.1
+	command_modifier = {
+		siege = 0.2
+	}
+	icon = 13
+}
+
+reclamationist_buff = {
+	learning = 1
+	icon = 135
+}
+
+almsivi_old_velothi_buff = {
+	learning = 1
+	icon = 135
+}
+##DAEDRIC RELIGIONS##
+daedra_clavicus_buff = {
+	global_tax_modifier = 0.015
+	icon = 135
+}
+daedra_hermaeus_buff = {
+	learning = 1
+	icon = 135
+}
+
+daedra_hircine_buff = {
+	global_movement_speed = 0.2
+	icon = 135
+}
+
+daedra_mehrunes_buff = {
+	leader = yes
+	command_modifier = {
+		siege = 0.2
+	}
+	icon = 135
+}
+
+daedra_meridia_buff ={
+	stewardship = 1
+	icon = 135
+}
+
+daedra_peryite_buff ={
+	martial = 2
+	icon = 135
+}
+
+##KHAJIIT##
+
+##HIST RELIGIONS##
+hist_buff ={
+	global_movement_speed = 0.2
+	icon = 135
+}
+##REACH FAITHS##
+
+##OLD FAITHS##
+
+##VOID RELIGIONS##
+
+##ANUIC RELIGIONS##
+
+##ATMORAN PANTHEON##
+
+##HERO CULTS##
+
+##CELESTIAL CULTS##
+#alikr_buff
+#satakal_buff
+#dwemer_buff
+#auriel_buff
+#green_pact_buff
+#blacksap_buff
+#almsivi_buff
+#nerevarine_buff
+#sixth_house_buff
+#reclamationist_buff
+#almsivi_old_velothi_buff
+#daedra_clavicus_buff
+#daedra_hermaeus_buff
+#daedra_hircine_buff
+#daedra_mehrunes_buff
+#daedra_meridia_buff
+#daedra_peryite_buff
+#hist_buff
