@@ -1,5 +1,5 @@
-name="Elder Kings: Reborn"
-archive="mod/ekreborn"
+name="Elder Kings: VL"
+archive="mod/ekvl"
 replace_path="common"
 replace_path="common/alternate_start"
 replace_path="common/artifacts"
@@ -69,7 +69,7 @@ replace_path="interface/portrait_properties"
 replace_path="localisation/customizable_localisation"
 replace_path="map"
 replace_path="map/statics"
-user_dir="ekreborn"
+user_dir="ekvl"
 tags=
 {
 	Elder Kings Elder Kings TES Elder Scrolls total conversion 
