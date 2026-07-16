@@ -1,5 +1,5 @@
 ### Elder Kings: VL for CK2 ###
-Checksum: VCKR
+Checksum: CVWG
 
 
 Thank you for downloading Elder Kings: VL for Crusader Kings II.
