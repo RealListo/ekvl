@@ -1,4 +1,24 @@
 Changelog:
+- Religion changes:
+    - Added events that provide attributes, military and province bonuses to the following religions:
+        - Alik'r, receives a 10% morale of armies bonus to their characters.
+        - Satakal, receives a 10% morale of armies bonus to their characters.
+        - Divine Metaphysics, receives one point of learning to their characters and a 20% tech growth and 0.05 tech gain bonus in the capital province.
+        - Auriel, receives one point of learning to their characters and a 0.03 culture tech gain bonus in the capital province.
+        - Green Pact, receives a 20% movement speed bonus to their characters.
+        - Blacksap, receives a 20% movement speed bonus to their characters.
+        - Almsivi, receives one point of learning to their characters and a 0.8 culture tech gain bonus in the capital province.
+        - Nerevarine, receives one point of learning and 10% morale of armies to their characters and a 0.8 culture tech gain bonus in the capital province.
+        - Sixth House, receives 10% morale of armies and 20% siege to their characters and a 0.8 culture tech gain and 10% disease resistance bonus in the capital province.
+        - Reclamationist, receives one point of learning to their characters and a 0.8 culture tech gain bonus in the capital province.
+        - Old Velothi, receives one point of learning to their characters and a 0.8 culture tech gain bonus in the capital province.
+        - Clavicus Vile, receives a 0.015 global tax modifier to their characters.
+        - Hermaeus Mora, receives one point of learning to their characters and a 50% tech growth bonus in the capital province.
+        - Hircine, receives a 20% movement speed bonus to their characters.
+        - Mehrunes Dagon, receives a 20% siege bonus to their characters.
+        - Meridia, receives one point of stewardship to their characters and a 5% disease resistance bonus in the capital province.
+        - Peryite, receives two points of martial to their characters and a 10% disease resistance bonus in the capital province.
+        - Hist, receives a 20% movement speed bonus to their characters.
 - Bloodlines changes:
     - Can’t be created infinitely anymore.
     - Every non martial bloodline have less required traits to make.
@@ -10,12 +30,12 @@ Changelog:
 - Empire creation change:
     -No longer locked by the ruler's culture/religion. Also it now shows you the cost to make one.
 - Economic change:
-    - Halved the economic impact of survey events from the steward's oversee construction action.
+    - Halved the economic impact of events from the steward's oversee construction action on a province.
 - Trade post change:
     - Trade posts provide 50% less income.
     - Trade zone value multiplier has been decreased to 0.5 --> 0.3.
     - Bonus to trade per income when connected to the capital has been decreased from 0.4 --> 0.2.
-    - % increase in cost due to distance to closest connected province has been decreased from 0.003 --> 0.002.
+    - The percentage increase in cost due to distance to closest connected province has been decreased from 0.003 --> 0.002.
     - Maximum trade post base that can be owned has been increased from 1 --> 2.
     - Minimum trade post base that can be owned has been increased from 4 --> 3.
 - Government change:
@@ -26,12 +46,15 @@ Changelog:
     - Wonders can be used regardless of the owner's culture or religion.
     - The Palace of Kings in Windhelm now allows infinite sign changes with no cooldown.
 - Ideal Masters change:
-    - Lessened the piety loss from the Ideal Masters oblivion invasion, the maximum is capped at -96 piety per month.
+    - Lessened the piety loss from the Ideal Masters Oblivion invasion, the maximum amount that can be lost is capped at 96 piety per month.
 - State attribute changes:
     - State Diplomacy now provides 0.5% of vassal minimum levy and 0.5% of construction time, per point of State Diplomacy.
+    - State Martial now provides half the bonuses it used to give.
     - State Stewardship now provides 0.5% vassal tax and 0.5% of construction cost, per point of State Stewardship.
     - State Intrigue now provides 1% siege speed, 0.2% plot power increase and 0.2% of plot power defence, per point of State Intrigue.
     - State Learning now provides 0.03 monthly piety, from 0.02 monthly piety, per point of State Learning.
+- Combat modifier change:
+    - Commanders scaling impact from their martial skilled has been decreased from 0.05 --> 0.025.
 - Councillor mission changes:
     - Organize the army now provides 0.5% of vassal minimum levy, multiplied by the martial stat of the Marshal.
     - Hunt apostates now provides 0.5% church tax, multiplied by the learning stat of the Court Chaplain.
