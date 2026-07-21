@@ -1,8 +1,8 @@
-### Elder Kings: VL for CK2 ###
+### Elder Kings: VL ###
 Checksum: CVWG
 
 
-Thank you for downloading Elder Kings: VL for Crusader Kings II.
+Thank you.
 
 This release is compatible with Crusader Kings II version 3.3.X.
 
