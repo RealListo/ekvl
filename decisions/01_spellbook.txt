@@ -4411,7 +4411,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -4449,7 +4449,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_4
@@ -4487,7 +4487,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_4
@@ -4525,7 +4525,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_6
@@ -4569,7 +4569,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_4
@@ -4607,7 +4607,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_6
@@ -4650,7 +4650,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_3
@@ -4689,7 +4689,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -4732,7 +4732,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_3
@@ -4771,7 +4771,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -4814,7 +4814,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_3
@@ -4853,7 +4853,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -4897,7 +4897,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_6
@@ -4936,7 +4936,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_8
@@ -4974,7 +4974,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_3
@@ -5013,7 +5013,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -5056,7 +5056,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_4
@@ -5095,7 +5095,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_6
@@ -5138,7 +5138,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_2
@@ -5177,7 +5177,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_4
@@ -5220,7 +5220,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_2
@@ -5259,7 +5259,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_4
@@ -5302,7 +5302,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_3
@@ -5341,7 +5341,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -5384,7 +5384,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_3
@@ -5423,7 +5423,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_5
@@ -5466,7 +5466,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_10
@@ -5506,7 +5506,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_20
@@ -5545,7 +5545,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_10
@@ -5587,7 +5587,7 @@ settlement_decisions = {
 		}
 		potential = {
 			is_capital = yes
-			location = { NOT = { distance = { who = FROM distance = 400 } } }
+			location = { NOT = { distance = { who = FROM distance = 2000 } } }
 		}
 		allow = {
 			custom_tooltip = { text = MAGICKA_COST_30
